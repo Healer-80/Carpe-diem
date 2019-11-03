@@ -62,7 +62,7 @@ header::after {
 }
 
 footer {
-  background-color: #7a3202;
+  background-color: #805315;
 }
 
 footer .сopyright p {
@@ -117,7 +117,7 @@ ul {
 }
 
 .bg--primary {
-  background-color: #7a3202;
+  background-color: #AA7A39;
 }
 
 .d-flex {
@@ -204,7 +204,7 @@ ul {
 .write-to-us input[type="submit"] {
   padding: 10px 15px;
   color: #fff;
-  background-color: #502d15;
+  background-color: #553100;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
