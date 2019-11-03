@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carpe diem</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+  <header class="d-flex flex--column text--light">
+    <h1 class="page-title">Carpe diem</h1>
+    <h3 class="page-subtitle">Travel agency</h3>
+  </header>
+
+  <main>
+
+    <section class="services bg--primary text--light">
+      <div class="wrapper">
+
+        <ul class="services">
+          <li class="service">
+            <img src="image/gastrotour.jpg" alt="gastrotour">
+            <h3>Гастротур</h3>
+          </li>
+          <li class="service">
+            <img src="image/patio.jpg" alt="patio">
+            <h3>Екскурсії двориками міста</h3>
+          </li>
+          <li class="service">
+            <img src="image/fortwo.jpg" alt="fortwo">
+            <h3>Вікенд для двох</h3>
+          </li>
+          <li class="service">
+            <img src="image/church.jpg" alt="church">
+            <h3>Тематичні прогулянки</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contacts d-flex flex--row-reverse text--light">
+      <div class="wrapper contacts-list-wrapper bg--primary">
+        <h2 class="section-title">Шукайте нас тут</h2>
+
+        <ul class="contacts-list d-flex flex--column">
+          <li class="contacts-item">
+            <i class="far fa-address-card"></i>
+            Львів вул. Театральна 22
+          </li>
+          <li class="contacts-item">
+            <i class="fas fa-phone"></i>
+             +380675894286
+          </li>
+          <li class="contacts-item">
+            <i class="fab fa-internet-explorer"></i>
+            Carpe diem
+          </li>
+          <li class="contacts-item">
+            <i class="far fa-clock"></i>
+             Пн-пт: 10:00-18:00
+          </li>
+        </ul>
+      </div>
+
+      <div class="contacts-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.957537310668!2d24.026829950661526!3d49.84325537929509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add728186163d%3A0x78ae3b05a3e9020!2sTeatralna%20Street%2C%2022%2C%20L&#39;viv%2C%20L&#39;vivs&#39;ka%20oblast%2C%2079000!5e0!3m2!1sen!2sua!4v1572739868834!5m2!1sen!2sua"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="write-to-us text--dark">
+      <div class="wrapper">
+        <h2 class="section-title">Напишіть нам</h2>
+
+        <form id="contactsForm" class="d-flex flex--column">
+          <input id="name" type="text" placeholder="Ваше ім'я">
+          <input id="email" type="email" placeholder="Ваш e-mail, нп: example@example.com">
+          <input id="phone" type="tel" placeholder="Ваш телефон нп, +380XXXXXXXXX">
+          <input type="submit" value="Надіслати">
+        </form>
+
+        <p class="hidden" id="successMessage">Дякуємо Вам! <br>Незабаром ми вам зателефонуємо. </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text--light">
+    <div class="wrapper wrapper--footer d-flex flex--row">
+      <div class="сopyright">
+        <p>Copyright © 2019 Carpe diem</p>
+        <p>Made in Lviv</p>
+      </div>
+
+      <ul class="social d-flex flex--row">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-pinterest-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
