@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-family: 'Liu Jian Mao Cao', cursive;
   /* scroll-behavior: smooth; */
@@ -14,6 +10,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header,
