@@ -139,12 +139,6 @@ ul {
   flex-direction: column-reverse;
 }
 
-
-
-.contacts {
-  height: 400px;
-}
-
 .contacts-list-wrapper,
 .contacts-map {
   width: 50%;
@@ -167,8 +161,7 @@ ul {
 } */
 
 .contacts-map {
-  width: 900;
-  height: 850;
+  width: 900px;
 }
 
 .contacts-map iframe {
