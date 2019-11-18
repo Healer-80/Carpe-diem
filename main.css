@@ -139,29 +139,20 @@ ul {
   flex-direction: column-reverse;
 }
 
+.contacts {
+  align-items: stretch;
+}
+
 .contacts-list-wrapper,
 .contacts-map {
-  width: 50%;
-  height: 100%;
+  flex: 1 1 50%;
+  box-sizing: border-box;
 }
 
 .contacts-list {
   position: relative;
   align-items: flex-start;
   padding: 0 30px 0 80px;
-}
-
-/*.contacts-map {
-  background-image: url('../images/map.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  content: '';
-  background-position: center;
-} */
-
-.contacts-map {
-  width: 900px;
 }
 
 .contacts-map iframe {
