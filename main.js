@@ -1,6 +1,5 @@
 (function () {
-
-  // Your web app's Firebase configuration
+// Your web app's Firebase configuration
   const firebaseConfig = {
     apiKey: "AIzaSyB79euw8NtFWlD4DXrcH5sHslLUdN7S4Vs",
     authDomain: "carpe-diem-5b9d6.firebaseapp.com",
