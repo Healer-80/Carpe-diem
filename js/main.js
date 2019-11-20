@@ -1,5 +1,4 @@
 (function () {
-// Your web app's Firebase configuration
   const firebaseConfig = {
     apiKey: "AIzaSyB79euw8NtFWlD4DXrcH5sHslLUdN7S4Vs",
     authDomain: "carpe-diem-5b9d6.firebaseapp.com",
@@ -9,24 +8,19 @@
     messagingSenderId: "452338796470",
     appId: "1:452338796470:web:fe147c19c515aca424a317"
   };
-  // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  var database = firebase.database();
-  var table = database.ref('/');
-  
+  const database = firebase.database();
+  const table = database.ref('/');
   const sendContactData = ({ name, phone, email }) => {
     table.push({
-      name: '',
-      email: '',
-      phone: '',
+      name,
+      email,
+      phone,
     });
   };
-// submit Form
    const onSubmitForm = event => {
     if (event.preventDefault) event.preventDefault();
-
     const successMessage = document.getElementById('successMessage');
-
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
     const email = document.getElementById('email').value;
