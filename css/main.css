@@ -1,6 +1,5 @@
 html {
   font-family: 'Liu Jian Mao Cao', cursive;
-  /* scroll-behavior: smooth; */
 }
 
 html,
@@ -25,7 +24,7 @@ header {
   min-height: 100vh;
   background: url('../image/header.jpg') no-repeat center center;
   background-size: cover;
-  background-attachment: fixed; /* Paralax Effect */
+  background-attachment: fixed; 
 }
 
 .page-title,
@@ -267,16 +266,6 @@ ul {
 
 .text--dark .section-title::after {
   background-color: #263238;
-}
-
-/* Carousel */
-.carousel {
-  position: relative;
-}
-
-.carousel__wrapper {
-  width: 100%;
-  overflow: hidden;
 }
 
 .arrow {
