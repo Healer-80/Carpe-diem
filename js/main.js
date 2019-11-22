@@ -11,6 +11,8 @@
   firebase.initializeApp(firebaseConfig);
   const database = firebase.database();
   const table = database.ref('/');
+  const form = document.getElementById('contactsForm');
+
   const sendContactData = ({ name, phone, email }) => {
     table.push({
       name,
@@ -18,7 +20,8 @@
       phone,
     });
   };
-   const onSubmitForm = event => {
+
+  const onSubmitForm = event => {
     if (event.preventDefault) event.preventDefault();
     const successMessage = document.getElementById('successMessage');
     const name = document.getElementById('name').value;
@@ -27,9 +30,7 @@
 
     sendContactData({ name, phone, email });
 
-    document.getElementById('name').value = '';
-    document.getElementById('phone').value = '';
-    document.getElementById('email').value = '';
+    form.reset();
 
     form.classList.add('hidden');
     successMessage.classList.remove('hidden');
@@ -41,8 +42,6 @@
     
     return false;
   }
-
-  const form = document.querySelector('#contactsForm');
 
   if (form.attachEvent) {
     form.attachEvent('submit', onSubmitForm);

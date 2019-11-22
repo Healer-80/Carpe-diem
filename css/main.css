@@ -71,6 +71,7 @@ footer .сopyright p {
   padding: 60px 0;
   width: 100%;
   max-width: 900px;
+  box-sizing: border-box;
 }
 
 .services {
